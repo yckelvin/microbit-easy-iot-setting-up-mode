@@ -1,0 +1,32 @@
+{
+    "name": "setting up Mode",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microIoT": "github:dfrobot/pxt-dfrobot-microiot#v1.1.0",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.9",
+        "tag": "v4.0.9",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/6c8222ce4e46b32453a41dc0fe5b41ba75aa2990",
+        "target": "4.0.9",
+        "pxt": "7.0.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
